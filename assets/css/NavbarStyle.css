@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #372214;
+}
+.navbar i {
+  color: black;
+}
+.navbar a {
+  color: white;
+  font-size: 15px;
+}
+.dropdown-menu a {
+  color: black;
+}
+footer {
+  padding-top: 3rem;
+
+  background-color: #372214;
+}
+footer p {
+  font-size: 10px;
+  color: white;
+}
+footer a {
+  font-size: 6px;
+  color: white;
+}
+@media screen and (max-width: 994px) {
+  .navbar img {
+    width: 30px;
+    height: 30px;
+  }
+}

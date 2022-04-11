@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- CSS fontawesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+
+    <!-- Icons -->
+    <link rel="shorcut icon" href="assets/img/pramuka.png" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/NavbarStyle.css" />
+    <link rel="stylesheet" href="assets/css/Style.css" />
+
+    <!-- CSS Efect -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>PRAMUSDA</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <div class="navbar-brand fw-bold">
+          <img src="assets/img/pramuka.png" alt="" width="50" height="50" class="d-inline-block align-text-center" />
+          <a class="text-decoration-none">PRAMUSDA</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/Sejarah.html" disabled>Sejarah</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Organisasi </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="page/Ambalan.html"><i class="fa-solid fa-people-group"></i> Ambalan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="page/GugusDepan.html"><i class="fa-solid fa-people-group"></i> Gugus Depan</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Informasi </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="page/Kegiatan.html"><i class="fa-solid fa-newspaper"></i> Kegiatan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="page/Prestasi.html"><i class="fa-solid fa-trophy"></i></i> Prestasi</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/Kontak.html" disabled>Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="padding-top: 3rem">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/slider/1.jpg" class="d-block w-100" alt="slide1" />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/slider/2.jpg" class="d-block w-100" alt="slide2" />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/slider/3.jpg" class="d-block w-100" alt="slide3" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Akhir Slider -->
+
+    <!-- About -->
+    <section>
+      <div class="container-fluid about">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <img src="assets/img/kepalasekolah.png" alt="kepalasekolah" data-aos="fade" />
+          </div>
+          <div class="col-6">
+            <p>
+              " Kegiatan Pramuka merupakan kegiatan ekstrakurikuler wajib di SMA Negeri 2 Sragen artinya seluruh siswa/siswi kelas 10 dan 11 wajib untuk mengikuti kegiatan ini. Dan diharapkan untuk mempunyai jiwa muda yang suka berkarya. "
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#b8733a"
+          fill-opacity="1"
+          d="M0,160L40,165.3C80,171,160,181,240,197.3C320,213,400,235,480,208C560,181,640,107,720,80C800,53,880,75,960,106.7C1040,139,1120,181,1200,176C1280,171,1360,117,1400,90.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Organisasi -->
+    <section style="background-color: #b8733a; padding-bottom: 3rem">
+      <div class="container-fluid organisasi" data-aos="zoom-in">
+        <div class="row text-center mb-3">
+          <h5 class="fw-bold">Organisasi</h5>
+        </div>
+        <div class="row text-center">
+          <div class="col-6">
+            <i class="fa-solid fa-people-group"></i>
+            <p>Dewan Ambalan</p>
+          </div>
+          <div class="col-6">
+            <i class="fa-solid fa-people-group"></i>
+            <p>Gugus Depan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- organisasi -->
+
+    <!-- Kegiatan -->
+    <section>
+      <div class="container-fluid kegiatan">
+        <div class="row text-center">
+          <h4 class="fw-bold">Kegiatan</h4>
+        </div>
+        <div class="row my-5 align-items-center" data-aos="zoom-in">
+          <div class="col-6">
+            <div class="card shadow d-md-none d-lg-none d-sm-block">
+              <img src="assets/img/kegiatan/1.jpg" class="card-img-top" alt="gambar1" />
+            </div>
+            <div class="card shadow d-none d-md-block d-lg-block" style="width: 18rem; margin: auto">
+              <img src="assets/img/kegiatan/1.jpg" class="card-img-top" alt="gambar1" />
+            </div>
+          </div>
+          <div class="col-6" data-aos="zoom-in">
+            <h5>PENERIMAAN TAMU AMBALAN DAN PELANTIKAN BANTARA</h5>
+            <p>
+              Pada hari Sabtu, 14 Agustus 2021 telah dilaksanakan kegiatan Penerimaan Tamu Ambalan dan Pelantikan Bantara 25 Gugus Depan 01.17 – 01.18. Di mana Penerimaan Tamu Ambalan sebagai wujud ucapan selamat datang kepada siswa kelas X
+              SMA Negeri 2 Sragen. Sedangkan Pelantikan Bantara adalah melantik Calon Bantara 25 menjadi Bantara 25 SMA Negeri 2 Sragen.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5 align-items-center" data-aos="zoom-in">
+          <div class="col-6">
+            <div class="card shadow d-md-none d-lg-none d-sm-block">
+              <img src="assets/img/kegiatan/2.jpg" class="card-img-top" alt="gambar2" />
+            </div>
+            <div class="card shadow d-none d-md-block d-lg-block" style="width: 18rem; margin: auto">
+              <img src="assets/img/kegiatan/2.jpg" class="card-img-top" alt="gambar2" />
+            </div>
+          </div>
+          <div class="col-6">
+            <h5>KURSUS PENGELOLAAN DEWAN AMBALAN PENEGAK</h5>
+            <p>Pada hari Jumat & Minggu, 19 & 21 November 2021 telah dilaksanakan Kursus Pengelolaan Dewan Ambalan Penegak. Kegiatan tersebut merupakan kursus bagi Bantara 25.</p>
+          </div>
+        </div>
+        <div class="row my-5 text-center">
+          <a href="page/Kegiatan.html" class="text-decoration-none" >Selengkapnya --></a>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#b8733a"
+          fill-opacity="1"
+          d="M0,160L40,165.3C80,171,160,181,240,197.3C320,213,400,235,480,208C560,181,640,107,720,80C800,53,880,75,960,106.7C1040,139,1120,181,1200,176C1280,171,1360,117,1400,90.7L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Kegiatan -->
+
+    <!-- Prestasi -->
+    <section style="background-color: #b8733a; padding-bottom: 3rem">
+      <div class="container-fluid prestasi">
+        <div class="row text-center">
+          <h4 class="fw-bold">Prestasi</h4>
+        </div>
+        <div class="row my-5 align-items-center" data-aos="zoom-in">
+          <div class="col-6">
+            <div class="card shadow d-md-none d-lg-none d-sm-block">
+              <img src="assets/img/prestasi/1.jpg" class="card-img-top" alt="gambar1" />
+            </div>
+            <div class="card shadow d-none d-md-block d-lg-block" style="width: 18rem; margin: auto">
+              <img src="assets/img/prestasi/1.jpg" class="card-img-top" alt="gambar1" />
+            </div>
+          </div>
+          <div class="col-6">
+            <h5>TCSD</h5>
+            <p>
+              TCSD merupakan singkatan dari Tribuana Candraca Satya Darma. Lomba TCSD tersebut di laksanakan pada hari Sabtu, 18 Januari 2020 di SMK Negeri 1 Sragen. Dewan Ambalan Penegak Gugus Depan SMA Negeri 2 Sragen meraih Juara 3 Mini Pioneering dan Juara 3 Tari Kreasi.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5 align-items-center" data-aos="zoom-in">
+          <div class="col-6">
+            <div class="card shadow d-md-none d-lg-none d-sm-block">
+              <img src="assets/img/prestasi/2.jpg" class="card-img-top" alt="gambar2" />
+            </div>
+            <div class="card shadow d-none d-md-block d-lg-block" style="width: 18rem; margin: auto">
+              <img src="assets/img/prestasi/2.jpg" class="card-img-top" alt="gambar2" />
+            </div>
+          </div>
+          <div class="col-6">
+            <h5>SWBB</h5>
+            <p>SWBB merupakan singkatan dari Saka Widya Budaya Bakti Scout Challenge. SWBB adalah lomba Pramuka berbagai bidang, seperti LCTP, SCSK, dan lain sebagainnya. Dewan Ambalan Penegak Gugus Depan SMA Negeri 2 Sragen meraih Juara 3 dalam bidang CCDR. </p>
+          </div>
+        </div>
+        <div class="row my-5 text-center">
+          <a href="page/Prestasi.html" class="text-decoration-none" style=" color: white;">Selengkapnya --></a>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Prestasi -->
+
+    <!-- Penutup -->
+    <section style="padding-bottom: 2rem;">
+      <div class="container-fluid penutup">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <img src="assets/img/iconpenutup.png" alt="iconspenutup">
+          </div>
+          <div class="col-6">
+            <h4>Ada Pantun Nih</h4>
+            <p>
+              Bermain Poku dengan Jaka <br>
+              Bertemu dengan mas Wayan <br>
+              Aku bangga jadi anak pramuka <br>
+              Belajar displin demi masa depan
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Penutup -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row text-center">
+          <p class="fw-bold">CopyRight 2022 SMA Negeri 2 Sragen</p>
+          <a href="https://www.freepik.com/vectors/kids-adventure" class="text-decoration-none">Kids adventure vector created by brgfx - www.freepik.com</a>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

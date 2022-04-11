@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+@media screen and (min-width: 994px) {
+  hr {
+    margin: auto;
+    size: 4px;
+    width: 75%;
+  }
+}
+
+/* Jumbotron */
+.jumbotron h1,
+.jumbotron p {
+  color: white;
+}
+.jumbotron img {
+  width: 300px;
+  height: 250px;
+  margin: auto;
+}
+/* Akhir Jumbotron */
+
+/* Organisasi */
+.organisasi p {
+  color: white;
+  font-size: 20px;
+}
+.organisasi h5 {
+  color: white;
+}
+.organisasi i {
+  color: white;
+  font-size: 20px;
+}
+/* Organisasi */
+
+/* Kegiatan */
+.kegiatan p {
+  font-size: 15px;
+}
+.kegiatan a {
+  font-size: 15px;
+}
+/* Akhir Kegiatan */
+
+/* Prestasi */
+.prestasi p {
+  color: white;
+  font-size: 15px;
+}
+.prestasi h4 {
+  color: white;
+}
+.prestasi h5 {
+  color: white;
+}
+.prestasi hr {
+  color: white;
+}
+.prestasi a {
+  font-size: 15px;
+}
+/* Akhir Prestasi */
+
+@media screen and (max-width: 994px) {
+  /* Jumbotron */
+  .jumbotron img {
+    width: 150px;
+    height: 120px;
+  }
+  /* Akhir Jumbotron */
+
+  /* About */
+  .about img {
+    width: 150px;
+    height: 150px;
+  }
+  .about p {
+    font-size: 8px;
+  }
+  /* Akhir About */
+
+  /* Organisasi */
+  .organisasi p {
+    font-size: 8px;
+  }
+  /* Akhir Organisasi */
+
+  /* Kegiatan */
+  .kegiatan .card {
+    width: 150px;
+  }
+  .kegiatan img {
+    width: 150px;
+  }
+  .kegiatan p {
+    font-size: 8px;
+  }
+  .kegiatan h5 {
+    font-size: 10px;
+  }
+  .kegiatan a {
+    font-size: 8px;
+  }
+  /* Akhir Kegiatan */
+
+  /* Prestasi */
+  .prestasi .card {
+    width: 150px;
+  }
+  .prestasi img {
+    width: 150px;
+  }
+  .prestasi p {
+    font-size: 8px;
+  }
+  .prestasi h5 {
+    font-size: 10px;
+  }
+  .prestasi a {
+    font-size: 8px;
+  }
+  /* Akhir Prestasi */
+
+  /* Penutup */
+  .penutup img {
+    width: 150px;
+    height: 150px;
+  }
+  .penutup h4 {
+    font-size: 15px;
+  }
+  .penutup p {
+    font-size: 8px;
+  }
+  /* Akhir Penutup */
+}
